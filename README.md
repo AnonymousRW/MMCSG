@@ -7,14 +7,14 @@ Please install the dependencies (requirements.txt). To install the packages,
 
 Training
 
-    For medical concern summary generation: MCS > python IR-MMCS.py
+    For medical concern summary generation: MMCSG > python IR-MMCS.py
 
-    For doctors'summary generation: DCS > python BART_INP.py
+    For doctors'summary generation: DSSG > python IR-MMCSG.py
     
 Ablation Study
 
-    For Ablation Study: AS > python file.py
-    file (T: Text, A: Audio, P: Persoanlity informaion and V: Visual information)
+    For Ablation Study: Ablation Study > python file.py
+    file (T: Text, I: image information, A: Audio, and P: Persoanlity informain)
 
 Testing 
 
